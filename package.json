@@ -6,8 +6,8 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "postinstall": "prisma generate",
-    "build": "prisma generate && npm run build",
-    "vercel-build": "prisma generate && npm run build"
+    "build": "prisma generate",
+    "vercel-build": "prisma generate"
   },
   "keywords": [],
   "author": "",
